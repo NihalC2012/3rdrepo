@@ -1,0 +1,58 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.GuessField {
+ padding: 10px;
+ margin-right: 10px;
+ width: 200px;
+}
+
+.SubmitGuess {
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.1s;
+    transition: transform 0.1s;
+}
+
+.SubmitGuess:hover {
+   background-color: antiquewhite;
+
+}
+
+.SubmitGuess:active {
+    transform: scale(0.95);
+}
+
+.Result {
+ font: bold;
+ 
+}
+
+.resetbutton {
+    font: bold;
+    background-color: aquamarine;
+
+}
+
+.resetbutton:hover {
+    background-color: antiquewhite;
+
+
+}
+
+.resetbutton:active {
+    transform: scale(0.95);
+}
